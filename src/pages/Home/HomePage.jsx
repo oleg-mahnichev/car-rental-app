@@ -9,7 +9,7 @@ import {
 const HomePage = () => {
   return (
     <HeroContainer>
-      <HeroImage src="/home_photo.jpg" alt="HERO" />
+      <HeroImage src="../../../public/home_photo.jpg" alt="HERO" />
       <HeroText>
         <HeroTitle>Car rental in central and eastern Europe</HeroTitle>
         <HeroDescription>Details...</HeroDescription>
