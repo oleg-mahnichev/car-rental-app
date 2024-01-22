@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="256" height="256">
+  <g style="stroke:none;stroke-width:0;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:none;fill-rule:nonzero;opacity:1" transform="matrix(2.81 0 0 2.81 1.407 1.407)">
+    <path d="M83.748 56.42h3.311A2.941 2.941 0 0 0 90 53.479v-7.145c-.8-5.443-12.12-8.71-22.414-8.645C51.478 25.661 32.041 25.808 9.79 36.248l-7.148 1.191A2.941 2.941 0 0 0 .184 40.34v10.344c0 .705.253 1.386.713 1.92l2.41 2.796a2.942 2.942 0 0 0 2.228 1.021h78.213z" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#5786cc;fill-rule:nonzero;opacity:1"/>
+    <path d="m28.863 35.217.656 1.286a2.172 2.172 0 0 0 1.934 1.185h36.133c-8.846-8.04-24.042-10.686-37.566-5.493a2.181 2.181 0 0 0-1.157 3.022zm8.787 8.242h-2.022a.98.98 0 1 1 0-1.962h2.022a.98.98 0 1 1 0 1.962zm52.236 2.347h-5.031c-1.721-1.706-2.784-3.849-3.533-6.202 4.688 1.346 8.074 3.205 8.564 6.202z" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#e1e7f1;fill-rule:nonzero;opacity:1"/>
+    <circle cx="74.044" cy="53.474" r="7.994" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#2a466f;fill-rule:nonzero;opacity:1"/>
+    <circle cx="74.045" cy="53.465" r="2.665" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#3b5883;fill-rule:nonzero;opacity:1"/>
+    <circle cx="16.724" cy="53.474" r="7.994" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#2a466f;fill-rule:nonzero;opacity:1"/>
+    <circle cx="16.725" cy="53.465" r="2.665" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#3b5883;fill-rule:nonzero;opacity:1"/>
+    <path d="M.184 41.242h2.934a1.66 1.66 0 0 1 0 3.318H.184a7.581 7.581 0 0 1 0-3.318z" style="stroke:none;stroke-width:1;stroke-dasharray:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;fill:#e1e7f1;fill-rule:nonzero;opacity:1"/>
+  </g>
+</svg>
