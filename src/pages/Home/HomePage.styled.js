@@ -2,22 +2,22 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
-  position: relative;
-  text-align: center;
+width:100%;
 `;
 
-export const HeroImage = styled.img`
-  width: 100%; 
-  height: auto; 
-`;
+// export const HeroImage = styled.img`
+//   width: 100%; 
+//   height: auto; 
+// `;
 
 export const HeroText = styled.div`
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white; /* Цвет текста */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Тень текста */
+  /* position: absolute;
+  top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+  text-align: center;
 `;
 
 export const HeroTitle = styled.h1`
