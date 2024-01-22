@@ -1,5 +1,3 @@
-// Home.js
-import React from 'react';
 import {
   HeroContainer,
   HeroImage,

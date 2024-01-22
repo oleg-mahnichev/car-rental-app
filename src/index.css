@@ -65,14 +65,22 @@ button:focus-visible {
   }
 
   a:hover {
-    color: #747bff;
+    color: #0b44cd;
   }
 
   button {
-    background-color: #f9f9f9;
+    background-color: #3470ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
   }
 }
-
+button:hover {
+  background-color: #0b44cd;
+}
 .container {
   text-align: center;
 }
