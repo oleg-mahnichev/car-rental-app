@@ -8,7 +8,6 @@ const FilterBar = ({ applyFilters }) => {
   const [makesList, setMakesList] = useState([]);
   const [makeFilter, setMakeFilter] = useState('All');
   const [priceRangeFilter, setPriceRangeFilter] = useState([0, 500]);
-  const [mileageRangeFilter, setMileageRangeFilter] = useState([0, 100000]);
 
   useEffect(() => {
     const sortedMakes = makesData.sort();
@@ -22,11 +21,8 @@ const FilterBar = ({ applyFilters }) => {
         const priceMatch =
           +advert.rentalPrice.replace('$', '') >= priceRangeFilter[0] &&
           +advert.rentalPrice.replace('$', '') <= priceRangeFilter[1];
-        const mileageMatch =
-          advert.mileage >= mileageRangeFilter[0] &&
-          advert.mileage <= mileageRangeFilter[1];
 
-        return makeMatch && priceMatch && mileageMatch;
+        return makeMatch && priceMatch;
       });
 
       applyFilters(filteredAdverts);
@@ -36,7 +32,7 @@ const FilterBar = ({ applyFilters }) => {
   const options = makesList.map(make => ({ value: make, label: make }));
 
   return (
-    <div style={{ marginBottom: '20px' }}>
+    <div style={{ marginBottom: '20px', marginLeft: '20px' }}>
       <h3>Filters:</h3>
       <label>
         Make:
@@ -53,25 +49,12 @@ const FilterBar = ({ applyFilters }) => {
           type="range"
           min="0"
           max="500"
-          value={priceRangeFilter[1]}
+          value={priceRangeFilter[0]}
           onChange={e =>
-            setPriceRangeFilter([+e.target.value, priceRangeFilter[1]])
+            setPriceRangeFilter([+e.target.value, +priceRangeFilter[1]])
           }
         />
-        ${priceRangeFilter[1]}
-      </label>
-      <label>
-        Mileage Range:
-        <input
-          type="range"
-          min="0"
-          max="100000"
-          value={mileageRangeFilter[1]}
-          onChange={e =>
-            setMileageRangeFilter([+e.target.value, mileageRangeFilter[1]])
-          }
-        />
-        {mileageRangeFilter[1]} miles
+        ${priceRangeFilter[0].toFixed(2)} - ${priceRangeFilter[1].toFixed(2)}
       </label>
       <button onClick={handleApplyFilters}>Apply Filters</button>
     </div>
