@@ -16,7 +16,7 @@ const TestComponentForRouting = () => {
         Test Component For Routing / env ={' '}
         {import.meta.env.VITE_REACT_APP_EXAMPLE}
       </p>
-      <Link to="/">Go home</Link>
+      <Link to="/">Go home back</Link>
     </div>
   );
 };
